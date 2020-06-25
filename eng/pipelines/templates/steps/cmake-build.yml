@@ -20,3 +20,4 @@ steps:
     - script: cmake ${{ parameters.BuildArgs }} --build .
       workingDirectory: build
       displayName: cmake build
+      
